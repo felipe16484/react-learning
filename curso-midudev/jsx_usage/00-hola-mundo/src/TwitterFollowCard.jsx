@@ -1,6 +1,6 @@
 import { useState } from "react" 
 export function TwitterFollowCard ({ children, userName }) {
-
+    // Uso del "useState"
     const [isFollowing,setIsFollowing] = useState(false)    
     
     const text = isFollowing ? 'Siguiendo' : 'Seguir'
