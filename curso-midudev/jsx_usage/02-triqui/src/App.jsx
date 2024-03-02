@@ -25,6 +25,10 @@ function App() {
     setBoard(newBoard)
     // Cambiamos el turno.
     const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
+
+    // Guardar la partida
+    
+
     setTurn(newTurn)
     // Revisar si hay ganador.
     const newWinner = checkWinner(newBoard)
