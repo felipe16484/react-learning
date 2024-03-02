@@ -14,4 +14,10 @@ export const checkWinner = (boardToCheck) => {
     }
     // Si no hay ganador
     return null
-  }
+}
+
+export const checkEndGame = (newBoard) => {
+  // Verificamos si todas las posiciones del board 
+  // son diferentes a null.
+  return newBoard.every((square)=> square !== null )
+}
