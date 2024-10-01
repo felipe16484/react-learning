@@ -10,4 +10,4 @@ RETOMANDO:
 
 VIDEO 1: https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29
 
-44:35
+1:29:05
